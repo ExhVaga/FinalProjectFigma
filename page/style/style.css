@@ -570,6 +570,77 @@ header>img {
     font-size: 18px;
 }
 
+/* -----------------------------------footer------------------------------------------ */
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+.footerUpper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 250px;
+    margin-left: 121px;
+}
+
+.footerIconsLeft {
+    display: flex;
+}
+
+.iconLeft {
+    margin-right: 30px;
+    width: 33px;
+    height: 33px;
+}
+
+.footerRightSide {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    justify-content: center;
+    height: 180px;
+    margin-right: 180px;
+}
+
+.mobile {
+    display: flex;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+/* .mobile__number {
+    margin-top: -5px;
+} */
+
+.mobileIcon {
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.mailIcon {
+    margin-right: 10px;
+}
+
+.footerCopyright {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 121px;
+}
+
+
 @media (min-width: 834px) and (max-width: 1440px) {
     /* tablet resolution */
 
@@ -962,6 +1033,58 @@ header>img {
  
     .paragraphText {
         font-size: 10px;
+    }
+
+    /* ----------------------------- */
+
+    .footerUpper {
+        height: 150px;
+        margin-left: 70px;
+    }
+
+    .iconLeft {
+        margin-right: 17.3px;
+        width: 19.11px;
+        height: 19.11px;
+    }
+
+    .footerLogo {
+        width: 66.6px;
+        height: 90px;
+    }
+
+    .footerRightSide {
+        font-size: 14px;
+        height: 100px;
+        margin-right: 100px;
+    }
+
+    .mail {
+        display: flex;
+        align-items: center;
+    }
+
+    .mobileNumber {
+        margin-top: -2px;
+    }
+
+    .mobileIcon {
+        margin-right: 5%;
+        margin-bottom: 10%;
+        width: 15.64px;
+        height: 15.64px;
+    }
+
+    .mailIcon {
+        margin-right: 10px;
+        width: 15.64px;
+        height: 10.43px;
+    }
+
+    .footerCopyright {
+        height: 90px;
+        font-size: 10px;
+        margin-left: 70px;
     }
 
 }
@@ -1358,6 +1481,61 @@ header>img {
  
     .paragraphText {
         font-size: 10px;
+    }
+
+    /* ----------------------------- */
+
+    .footerUpper {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: unset;
+        height: 200px;
+        margin-left: 35px;
+    }
+
+    .iconLeft {
+        margin: 0 14px 47.6px 0;
+        width: 15.38px;
+        height: 15.38px;
+    }
+
+    .footerLogo {
+        width: 53.59px;
+        height: 60px;
+    }
+
+    .footerRightSide {
+        font-size: 12px;
+        height: 50px;
+    }
+
+    .mail {
+        display: flex;
+        align-items: center;
+    }
+
+    .mobileNumber {
+        margin-top: -2px;
+    }
+
+    .mobileIcon {
+        margin-right: 3%;
+        margin-bottom: 5%;
+        width: 12.58px;
+        height: 12.58px;
+    }
+
+    .mailIcon {
+        margin-right: 10px;
+        width: 12.58px;
+        height: 8.39px;
+    }
+
+    .footerCopyright {
+        height: 50px;
+        font-size: 10px;
+        min-width: 102px;
+        margin-left: 35px;
     }
 
 }
