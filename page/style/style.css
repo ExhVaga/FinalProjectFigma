@@ -237,6 +237,102 @@ header>img {
 }
 
 
+/* ------------------------------------aboutCourse-------------------------------------------- */
+
+
+.aboutCourseTitle {
+    font-size: 55px;
+    height: 150px;
+    margin-left: 121px;
+}
+
+/* --------------upper-block--------------- */
+
+.aboutCourseUpper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 121px;
+}
+
+.aboutCourseUpperParagraphWrapper {
+    height: 500px;
+}
+
+.aboutCourseUpperParagraph {
+    font-family: "Roboto", sans-serif;
+    max-width: 662px;
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+
+.aboutCourseUpperImgWrapper {
+    position: relative;
+    top: 30px;
+    height: 400px;
+    right: 30px;
+}
+
+.aboutCourseUpperShadow {
+    position: absolute;
+    bottom: 50px;
+    left: -30px;
+    /* width: 150%; */
+    z-index: -1;
+}
+
+/* ------------lower-block---------------- */
+
+.aboutCourseLower {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 121px;
+}
+
+.aboutCourseLowerLeftImg {
+    position: relative;
+    max-width: 232px;
+    margin-right: 132px;
+    height: 220px;
+}
+
+.aboutCourseLowerShadow {
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    left: 25px;
+}
+
+.aboutCourseLowerParagraphWrapper {
+    display: flex;
+    position: relative;
+    top: 80px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.aboutCourseLowerParagraph {
+    max-width: 150px;
+    margin-right: 95px;
+}
+
+.aboutCourseLowerParagraph:last-child {
+    margin: 0;
+}
+
+.aboutCourseLowerTitle {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.aboutCourseLowerText {
+    font-size: 18px;
+    line-height: 130%;
+}
+
+
+
 @media (min-width: 834px) and (max-width: 1440px) {
     /* tablet resolution */
 
@@ -356,6 +452,82 @@ header>img {
         font-size: 12px;
         height: 20px;
     }
+
+    /* ----------------------------------------------------aboutCourse------------------------------------------ */
+
+    .aboutCourseTitle {
+        font-size: 32px;
+        height: 60px;
+        margin-left: 70px;
+    }
+
+    .aboutCourseUpper{
+        margin-left: 70px;
+    }
+
+    .aboutCourseUpperParagraphWrapper {
+        height: 300px;
+    }
+
+    .aboutCourseUpperParagraph {
+        max-width: 383px;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 27px;
+    }
+
+    .aboutCourseUpperImgWrapper {
+        top: 30px;
+        max-width: 181.86px;
+        max-height: 182.44px;
+    }
+
+    .aboutCourseUpperShadow {
+        bottom: -25px;
+        left: -30px;
+        width: 135%;
+    }
+
+    /* ---------------------------- */
+
+    .aboutCourseLower {
+        height: 210px;
+        margin-left: 70px;
+    }
+
+    .aboutCourseLowerParagraphWrapper {
+        top: 40px;
+    }
+
+    .aboutCourseLowerLeftImg {
+        width: 134.37px;
+        height: 117.57px;
+        margin-right: 76.5px;
+    }
+
+    .aboutCourseLowerShadow {
+        position: absolute;
+        bottom: -10px;
+        left: 15px;
+    }
+
+    .aboutCourseLowerParagraph {
+        max-width: 86.88px;
+        margin-right: 55.2px;
+    }
+
+    .aboutCourseLowerParagraph:nth-child(2) {
+        max-width: 91px;
+    }
+
+    .aboutCourseLowerTitle {
+        font-size: 15px;
+    }
+
+    .aboutCourseLowerText {
+        font-size: 11px;
+    }
+
 }
 
 
@@ -476,5 +648,73 @@ header>img {
         font-size: 10px;
         height: 22px;
     }
+
+    /* -------------------------aboutCourse---------------------------------- */
+
+    .aboutCourseTitle {
+        font-size: 26px;
+        height: 60px;
+        margin-left: 35px;
+    }
+
+    .aboutCourseUpper{
+        margin-left: 35px;
+    }
+
+    .aboutCourseUpperParagraphWrapper {
+        height: 250px;
+    }
+
+    .aboutCourseUpperParagraph {
+        max-width: 308px;
+        font-size: 12px;
+        margin-bottom: 24px;
+        line-height: 18px;
+    }
+
+    .aboutCourseUpperImgWrapper {
+        top: 0px;
+        max-width: 150px;
+        max-height: 135px;
+        right: -65px;
+    }
+
+    .aboutCourseUpperShadow {
+        bottom: -30px;
+        left: -25px;
+        width: 130%;
+    }
+
+    /* ---------------------------- */
+
+    .aboutCourseLowerLeftImg {
+        display: none;
+    }
+
+    .aboutCourseLowerParagraphWrapper {
+        max-width: 250px;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .aboutCourseLower {
+        height: 250px;
+        margin-left: 35px;
+    }
+
+    .aboutCourseLowerParagraph {
+        max-width: 86.88px;
+        margin-right: 33.3px;
+        margin-bottom: 34px;
+    }
+
+    .aboutCourseLowerTitle {
+        font-size: 12px;
+    }
+
+    .aboutCourseLowerText {
+        font-size: 10px;
+    }
+
 
 }
