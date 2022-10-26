@@ -332,6 +332,57 @@ header>img {
 }
 
 
+.block3Header {
+    margin-left: 121px;
+}
+
+.block3Title {
+    width: 90%;
+    height: 93px;
+    font-size: 55px;
+}
+
+.block3ColumnsUp {
+    color: #1e4681;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.block3ColumnsDown {
+    font-size: 18px;
+}
+
+.block3HeaderColumns {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.block3Footer {
+    margin-top: 100px;
+    margin-left: 121px;
+}
+
+.block3Questions {
+    margin-top: 50px;
+    list-style: disc;
+
+}
+
+.block3Footer ul {
+    list-style-type: disc;
+    margin-left: 2%;
+    margin-bottom: 65px;
+    max-width: 662px;
+}
+
+.block3Question-items {
+    font-size: 25px;
+    margin-top: 5px;
+
+}
+
 
 @media (min-width: 834px) and (max-width: 1440px) {
     /* tablet resolution */
@@ -461,7 +512,7 @@ header>img {
         margin-left: 70px;
     }
 
-    .aboutCourseUpper{
+    .aboutCourseUpper {
         margin-left: 70px;
     }
 
@@ -527,6 +578,52 @@ header>img {
     .aboutCourseLowerText {
         font-size: 11px;
     }
+
+
+    .block3Header {
+        margin-left: 70px;
+    }
+
+    .block3Title {
+        width: 90%;
+        height: 50px;
+        font-size: 32px;
+    }
+
+    .block3ColumnsUp {
+        color: #1e4681;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 60px;
+    }
+
+    .block3ColumnsDown {
+        font-size: 11px;
+    }
+
+    .block3HeaderColumns {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .block3Footer {
+        margin-top: 130px;
+        margin-left: 70px;
+    }
+
+    .block3Questions {
+        margin-top: 20px;
+
+    }
+
+    .block3Question-items {
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 0px;
+        max-width: 383px;
+    }
+
 
 }
 
@@ -657,7 +754,7 @@ header>img {
         margin-left: 35px;
     }
 
-    .aboutCourseUpper{
+    .aboutCourseUpper {
         margin-left: 35px;
     }
 
@@ -714,6 +811,59 @@ header>img {
 
     .aboutCourseLowerText {
         font-size: 10px;
+    }
+
+
+    .block3Title {
+        width: 90%;
+        height: 50px;
+        font-size: 26px;
+    }
+
+    .block3ColumnsUp {
+        color: #1e4681;
+        font-weight: bold;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .block3ColumnsDown {
+        font-size: 10px;
+        margin-bottom: 25px;
+    }
+
+    .block3HeaderColumns {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 70%;
+        padding-bottom: 10px;
+
+    }
+
+    .block3Header {
+        margin-left: 35px;
+    }
+
+    .block3Footer {
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+
+    .block3Questions {
+        margin-bottom: 80px;
+        margin-top: 20px;
+    }
+
+    .block3Footer ul {
+        margin-left: 20px;
+    }
+
+    .block3Question-items {
+        font-size: 12px;
+        margin-top: 5px;
+        max-width: 600px;
+
     }
 
 
