@@ -26,11 +26,11 @@ h2 {
     line-height: 55px;
 }
 
-.mt10{
+.mt10 {
     margin-top: 10px !important;
 }
 
-.pb20{
+.pb20 {
     padding-bottom: 20px !important;
 }
 
@@ -449,6 +449,72 @@ header>img {
     margin-left: 10px;
 }
 
+.block5 {
+    width: 100%;
+    background-color: #efefef;
+}
+
+.block5Container {
+    margin: 0px auto;
+    max-width: 1440px;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.block5Header {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-left: 121px;
+}
+
+.block5Card {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    max-width: 720px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    margin-left: 120px;
+    padding: 40px;
+}
+
+.block5Card-text {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.block5Card-social {
+    display: flex;
+    margin-top: 30px;
+}
+
+.block5-social-photo img {
+    height: 169px;
+    width: 190px;
+    margin-right: 20px;
+}
+
+.block5-social_meta-name {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.block5-social_meta-icon img {
+    height: 31px;
+    width: 32px;
+    margin-top: 20px;
+}
+
 
 @media (min-width: 834px) and (max-width: 1440px) {
     /* tablet resolution */
@@ -743,6 +809,62 @@ header>img {
         line-height: 18px;
     }
 
+    /* ----------------------------------------------------5 block------------------------------------------ */
+
+    .block5Container {
+        height: 452px;
+        max-width: 834px;
+        margin: 0px auto;
+        justify-content: space-around;
+    }
+
+    .block5Header {
+        padding-top: 40px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-left: 70px;
+    }
+
+    .block5Card {
+        height: 205px;
+        max-width: 400px;
+        border-radius: 17.375px;
+        padding: 30px;
+        margin-left: 70px;
+    }
+
+    .block5Card-text {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .block5Card-social {
+        margin-top: 15px;
+    }
+
+    .block5-social-photo img {
+        height: 97px;
+        width: 110px;
+    }
+
+    .block5-social_meta {
+        margin-top: -20px;
+    }
+
+    .block5-social_meta-name {
+
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 17px;
+    }
+
+    .block5-social_meta-icon img {
+        height: 18px;
+        width: 19px;
+    }
+
 
 
 }
@@ -997,7 +1119,7 @@ header>img {
 
     .courseProgramTitle {
         display: flex;
-        justify-content: start  ;
+        justify-content: start;
         font-size: 26px;
         line-height: 26px;
         margin-left: 35px;
@@ -1038,4 +1160,60 @@ header>img {
         margin-top: 9px;
     }
 
+    /* ----------------------------------------------------5 block------------------------------------------ */
+
+    .block5Container {
+        height: 423px;
+        max-width: 375px;
+    }
+
+    .block5Header {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 26px;
+        max-width: 257px;
+        margin-left: 35px;
+    }
+
+    .block5Card {
+        max-height: 248px;
+        max-width: 308px;
+        border-radius: 14px;
+        margin-left: 35px;
+        padding: 20px;
+    }
+
+    .block5Card-text {
+        min-width: 266px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+
+    }
+
+    .block5Card-social {
+        margin-top: 15px;
+
+    }
+
+    .block5-social-photo img {
+        height: 80px;
+        width: 90px;
+    }
+
+    .block5-social_meta {
+        margin-top: -20px;
+    }
+
+    .block5-social_meta-name {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+    }
+
+    .block5-social_meta-icon img {
+
+        height: 17px;
+        width: 15px;
+    }
 }
