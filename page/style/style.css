@@ -449,12 +449,12 @@ header>img {
     margin-left: 10px;
 }
 
-.block5 {
+.courseFeedback {
     width: 100%;
     background-color: #efefef;
 }
 
-.block5Container {
+.courseFeedbackContainer {
     margin: 0px auto;
     max-width: 1440px;
     height: 780px;
@@ -464,7 +464,7 @@ header>img {
     margin-top: 50px;
 }
 
-.block5Header {
+.courseFeedbackHeader {
     font-family: Roboto Slab;
     font-size: 55px;
     font-weight: 700;
@@ -472,7 +472,7 @@ header>img {
     margin-left: 121px;
 }
 
-.block5Card {
+.courseFeedbackCard {
     display: flex;
     flex-direction: column;
     height: 360px;
@@ -484,32 +484,32 @@ header>img {
     padding: 40px;
 }
 
-.block5Card-text {
+.courseFeedbackCardText {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
 }
 
-.block5Card-social {
+.courseFeedbackCardSocial {
     display: flex;
     margin-top: 30px;
 }
 
-.block5-social-photo img {
+.courseFeedbackSocialPhoto img {
     height: 169px;
     width: 190px;
     margin-right: 20px;
 }
 
-.block5-social_meta-name {
+.courseFeedbackSocialMetaName {
     font-size: 30px;
     font-weight: 700;
     line-height: 30px;
     margin-top: 40px;
 }
 
-.block5-social_meta-icon img {
+.courseFeedbackSocialMetaIcon img {
     height: 31px;
     width: 32px;
     margin-top: 20px;
@@ -936,14 +936,14 @@ header>img {
 
     /* ----------------------------------------------------5 block------------------------------------------ */
 
-    .block5Container {
+    .courseFeedbackContainer {
         height: 452px;
         max-width: 834px;
         margin: 0px auto;
         justify-content: space-around;
     }
 
-    .block5Header {
+    .courseFeedbackHeader {
         padding-top: 40px;
         font-size: 32px;
         font-weight: 700;
@@ -951,7 +951,7 @@ header>img {
         margin-left: 70px;
     }
 
-    .block5Card {
+    .courseFeedbackCard {
         height: 205px;
         max-width: 400px;
         border-radius: 17.375px;
@@ -959,33 +959,33 @@ header>img {
         margin-left: 70px;
     }
 
-    .block5Card-text {
+    .courseFeedbackCardText {
         font-size: 12px;
         font-weight: 400;
         line-height: 18px;
     }
 
-    .block5Card-social {
+    .courseFeedbackCardSocial {
         margin-top: 15px;
     }
 
-    .block5-social-photo img {
+    .courseFeedbackSocialPhoto img {
         height: 97px;
         width: 110px;
     }
 
-    .block5-social_meta {
+    .courseFeedbackSocialMeta {
         margin-top: -20px;
     }
 
-    .block5-social_meta-name {
+    .courseFeedbackSocialMetaName {
 
         font-size: 17px;
         font-weight: 700;
         line-height: 17px;
     }
 
-    .block5-social_meta-icon img {
+    .courseFeedbackSocialMetaIcon img {
         height: 18px;
         width: 19px;
     }
@@ -1382,12 +1382,12 @@ header>img {
 
     /* ----------------------------------------------------5 block------------------------------------------ */
 
-    .block5Container {
+    .courseFeedbackContainer {
         height: 423px;
         max-width: 375px;
     }
 
-    .block5Header {
+    .courseFeedbackHeader {
         font-size: 26px;
         font-weight: 700;
         line-height: 26px;
@@ -1395,7 +1395,7 @@ header>img {
         margin-left: 35px;
     }
 
-    .block5Card {
+    .courseFeedbackCard {
         max-height: 248px;
         max-width: 308px;
         border-radius: 14px;
@@ -1403,7 +1403,7 @@ header>img {
         padding: 20px;
     }
 
-    .block5Card-text {
+    .courseFeedbackCardText {
         min-width: 266px;
         font-size: 10px;
         font-weight: 400;
@@ -1411,27 +1411,27 @@ header>img {
 
     }
 
-    .block5Card-social {
+    .courseFeedbackCardSocial {
         margin-top: 15px;
 
     }
 
-    .block5-social-photo img {
+    .courseFeedbackSocialPhoto img {
         height: 80px;
         width: 90px;
     }
 
-    .block5-social_meta {
+    .courseFeedbackSocialMeta {
         margin-top: -20px;
     }
 
-    .block5-social_meta-name {
+    .courseFeedbackSocialMetaName {
         font-size: 14px;
         font-weight: 700;
         line-height: 14px;
     }
 
-    .block5-social_meta-icon img {
+    .courseFeedbackSocialMetaIcon img {
 
         height: 17px;
         width: 15px;
