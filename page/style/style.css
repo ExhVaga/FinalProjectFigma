@@ -26,6 +26,14 @@ h2 {
     line-height: 55px;
 }
 
+.mt10{
+    margin-top: 10px !important;
+}
+
+.pb20{
+    padding-bottom: 20px !important;
+}
+
 /* Указываем box sizing */
 /* *,
 *::before,
@@ -384,6 +392,64 @@ header>img {
 }
 
 
+/*-------------------------------courseProgram------------------------------------------*/
+
+.courseProgramTitle {
+    font-size: 55px;
+    line-height: 56px;
+    margin-left: 121px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.courseProgramContainer {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 1290px; */
+    /* margin: 0px auto; */
+}
+
+
+.courseProgramCards {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1290px;
+    margin: 0px auto;
+}
+
+
+.courseProgramElement {
+    width: 399px;
+    height: 328px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    margin: 15px;
+}
+
+
+.courseProgramElement img {
+    width: 399px;
+    height: 160px;
+}
+
+.courseProgramCardsHeader {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.courseProgramElement p:last-child {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
 @media (min-width: 834px) and (max-width: 1440px) {
     /* tablet resolution */
 
@@ -623,6 +689,60 @@ header>img {
         margin-top: 0px;
         max-width: 383px;
     }
+
+
+    /* ----------------------------------------------------courseProgram------------------------------------------ */
+    .courseProgramContainer {
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        margin: 0px auto;
+    }
+
+    .courseProgramTitle {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-left: 40px;
+        margin-bottom: 0px;
+    }
+
+
+    .courseProgramCards {
+        margin: 55px auto;
+        width: 770px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 65px;
+    }
+
+    .courseProgramElement {
+        height: 190px;
+        width: 231px;
+        border-radius: 17.375px;
+        margin: 10px;
+    }
+
+
+    .courseProgramElement img {
+        height: 92px;
+        width: 231px;
+    }
+
+    .courseProgramCardsHeader {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+
+    .courseProgramElement p:last-child {
+
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
 
 
 }
@@ -866,5 +986,56 @@ header>img {
 
     }
 
+
+    /* ----------------------------------------------------courseProgram------------------------------------------ */
+
+
+    .courseProgramSection {
+        max-width: 375px;
+        margin: 0px auto;
+    }
+
+    .courseProgramTitle {
+        display: flex;
+        justify-content: start  ;
+        font-size: 26px;
+        line-height: 26px;
+        margin-left: 35px;
+        margin-bottom: 0px;
+    }
+
+
+    .courseProgramCards {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        max-width: 375px;
+    }
+
+    .courseProgramElement {
+        height: 153px;
+        width: 186px;
+        border-radius: 14px;
+    }
+
+    .courseProgramElement img {
+        height: 75px;
+        width: 186px;
+    }
+
+
+    .courseProgramCardsHeader {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+
+    .courseProgramElement p:last-child {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        margin-top: 9px;
+    }
 
 }
