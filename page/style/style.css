@@ -515,6 +515,60 @@ header>img {
     margin-top: 20px;
 }
 
+/* ----------------------------------------courseProps Desktop----------------------------------------------------- */
+ 
+.courseProps {
+    background-color: #9dc9c8;
+    font-family: "Roboto", sans-serif;
+}
+ 
+.coursePropsTitle{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    font-family: "Roboto Slab", serif;
+    padding-top: 100px;
+    margin-left: 121px;
+}
+ 
+.coursePropsTitle > h2{
+    font-size: 55px;
+}
+ 
+.coursePropsPrice {
+    line-height: 1.1;
+    height: 185px;
+    margin-left: 121px;
+}
+ 
+.coursePropsPriceWord {
+    font-size: 25px;
+}
+ 
+.coursePropsPriceNumber {
+    font-size: 80px;
+}
+ 
+.coursePropsParagraphWrapper {
+    display: flex;
+    height: 295px;
+    margin-left: 121px;
+}
+ 
+.paragraph{
+    line-height: 1.1;
+    max-width: 294px;
+    margin-right: 70px;
+}
+ 
+.paragraphTitle {
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+ 
+.paragraphText {
+    font-size: 18px;
+}
 
 @media (min-width: 834px) and (max-width: 1440px) {
     /* tablet resolution */
@@ -865,7 +919,50 @@ header>img {
         width: 19px;
     }
 
-
+    /* ----------------------------------------------------courseProps-tablet----------------------------------- */
+ 
+    .coursePropsTitle {
+        height: 100px;
+        font-size: 32px;
+        margin-left: 70px;
+    }
+ 
+    .coursePropsTitle > h2{
+        font-size: 32px;
+        line-height: 32px;
+    }
+ 
+    .coursePropsPrice {
+        height: 120px;
+        margin-left: 70px;
+    }
+ 
+    .coursePropsPriceWord {
+        font-size: 14px;
+    }
+ 
+    .coursePropsPriceNumber {
+        font-size: 46px;
+    }
+ 
+    .coursePropsParagraphWrapper {
+        height: 150px;
+        margin-left: 70px;
+    }
+ 
+    .paragraph {
+        max-width: 170px;
+        margin-right: 40.5px;
+    }
+ 
+    .paragraphTitle {
+        font-size: 14px;
+        margin-bottom: 5.5px;
+    }
+ 
+    .paragraphText {
+        font-size: 10px;
+    }
 
 }
 
@@ -1216,4 +1313,51 @@ header>img {
         height: 17px;
         width: 15px;
     }
+
+    /* --------------------------------------------------courseProps-mobile------------------------------------- */
+ 
+    .coursePropsTitle {
+        height: 150px;
+        margin-left: 35px;
+    }
+ 
+    .coursePropsTitle > h2{
+        font-size: 26px;
+        line-height: 26px;
+        max-width: 222px;
+    }
+ 
+    .coursePropsPrice {
+        height: 100px;
+        margin-left: 35px;
+    }
+ 
+    .coursePropsPriceWord {
+        font-size: 12px;
+    }
+ 
+    .coursePropsPriceNumber {
+        font-size: 37px;
+    }
+ 
+    .coursePropsParagraphWrapper {
+        height: 150px;
+        justify-content: space-between;
+        margin-left: 35px;
+    }
+ 
+    .paragraph {
+        max-width: 138px;
+        margin: 0;
+    }
+ 
+    .paragraphTitle {
+        font-size: 12px;
+        margin-bottom: 5.5px;
+    }
+ 
+    .paragraphText {
+        font-size: 10px;
+    }
+
 }
