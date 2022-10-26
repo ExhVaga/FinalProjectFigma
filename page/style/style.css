@@ -340,52 +340,52 @@ header>img {
 }
 
 
-.block3Header {
+.courseFormatHeader {
     margin-left: 121px;
 }
 
-.block3Title {
+.courseFormatTitle {
     width: 90%;
     height: 93px;
     font-size: 55px;
 }
 
-.block3ColumnsUp {
+.courseFormatColumnsUp {
     color: #1e4681;
     font-weight: bold;
     font-size: 25px;
     margin-top: 60px;
 }
 
-.block3ColumnsDown {
+.courseFormatColumnsDown {
     font-size: 18px;
 }
 
-.block3HeaderColumns {
+.courseFormatHeaderColumns {
     display: flex;
     justify-content: space-between;
     width: 80%;
 }
 
-.block3Footer {
+.courseFormatFooter {
     margin-top: 100px;
     margin-left: 121px;
 }
 
-.block3Questions {
+.courseFormatQuestions {
     margin-top: 50px;
     list-style: disc;
 
 }
 
-.block3Footer ul {
+.courseFormatFooter ul {
     list-style-type: disc;
     margin-left: 2%;
     margin-bottom: 65px;
     max-width: 662px;
 }
 
-.block3Question-items {
+.courseFormatQuestion-items {
     font-size: 25px;
     margin-top: 5px;
 
@@ -516,13 +516,13 @@ header>img {
 }
 
 /* ----------------------------------------courseProps Desktop----------------------------------------------------- */
- 
+
 .courseProps {
     background-color: #9dc9c8;
     font-family: "Roboto", sans-serif;
 }
- 
-.coursePropsTitle{
+
+.coursePropsTitle {
     display: flex;
     align-items: center;
     height: 200px;
@@ -530,42 +530,42 @@ header>img {
     padding-top: 100px;
     margin-left: 121px;
 }
- 
-.coursePropsTitle > h2{
+
+.coursePropsTitle>h2 {
     font-size: 55px;
 }
- 
+
 .coursePropsPrice {
     line-height: 1.1;
     height: 185px;
     margin-left: 121px;
 }
- 
+
 .coursePropsPriceWord {
     font-size: 25px;
 }
- 
+
 .coursePropsPriceNumber {
     font-size: 80px;
 }
- 
+
 .coursePropsParagraphWrapper {
     display: flex;
     height: 295px;
     margin-left: 121px;
 }
- 
-.paragraph{
+
+.paragraph {
     line-height: 1.1;
     max-width: 294px;
     margin-right: 70px;
 }
- 
+
 .paragraphTitle {
     font-size: 25px;
     margin-bottom: 9px;
 }
- 
+
 .paragraphText {
     font-size: 18px;
 }
@@ -837,44 +837,44 @@ header>img {
     }
 
 
-    .block3Header {
+    .courseFormatHeader {
         margin-left: 70px;
     }
 
-    .block3Title {
+    .courseFormatTitle {
         width: 90%;
         height: 50px;
         font-size: 32px;
     }
 
-    .block3ColumnsUp {
+    .courseFormatColumnsUp {
         color: #1e4681;
         font-weight: bold;
         font-size: 15px;
         margin-top: 60px;
     }
 
-    .block3ColumnsDown {
+    .courseFormatColumnsDown {
         font-size: 11px;
     }
 
-    .block3HeaderColumns {
+    .courseFormatHeaderColumns {
         display: flex;
         justify-content: space-between;
         width: 80%;
     }
 
-    .block3Footer {
+    .courseFormatFooter {
         margin-top: 130px;
         margin-left: 70px;
     }
 
-    .block3Questions {
+    .courseFormatQuestions {
         margin-top: 20px;
 
     }
 
-    .block3Question-items {
+    .courseFormatQuestion-items {
         font-size: 14px;
         line-height: 21px;
         margin-top: 0px;
@@ -991,46 +991,46 @@ header>img {
     }
 
     /* ----------------------------------------------------courseProps-tablet----------------------------------- */
- 
+
     .coursePropsTitle {
         height: 100px;
         font-size: 32px;
         margin-left: 70px;
     }
- 
-    .coursePropsTitle > h2{
+
+    .coursePropsTitle>h2 {
         font-size: 32px;
         line-height: 32px;
     }
- 
+
     .coursePropsPrice {
         height: 120px;
         margin-left: 70px;
     }
- 
+
     .coursePropsPriceWord {
         font-size: 14px;
     }
- 
+
     .coursePropsPriceNumber {
         font-size: 46px;
     }
- 
+
     .coursePropsParagraphWrapper {
         height: 150px;
         margin-left: 70px;
     }
- 
+
     .paragraph {
         max-width: 170px;
         margin-right: 40.5px;
     }
- 
+
     .paragraphTitle {
         font-size: 14px;
         margin-bottom: 5.5px;
     }
- 
+
     .paragraphText {
         font-size: 10px;
     }
@@ -1276,25 +1276,25 @@ header>img {
     }
 
 
-    .block3Title {
+    .courseFormatTitle {
         width: 90%;
         height: 50px;
         font-size: 26px;
     }
 
-    .block3ColumnsUp {
+    .courseFormatColumnsUp {
         color: #1e4681;
         font-weight: bold;
         font-size: 12px;
         margin-top: 5px;
     }
 
-    .block3ColumnsDown {
+    .courseFormatColumnsDown {
         font-size: 10px;
         margin-bottom: 25px;
     }
 
-    .block3HeaderColumns {
+    .courseFormatHeaderColumns {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -1303,25 +1303,25 @@ header>img {
 
     }
 
-    .block3Header {
+    .courseFormatHeader {
         margin-left: 35px;
     }
 
-    .block3Footer {
+    .courseFormatFooter {
         margin-top: 30px;
         margin-left: 35px;
     }
 
-    .block3Questions {
+    .courseFormatQuestions {
         margin-bottom: 80px;
         margin-top: 20px;
     }
 
-    .block3Footer ul {
+    .courseFormatFooter ul {
         margin-left: 20px;
     }
 
-    .block3Question-items {
+    .courseFormatQuestion-items {
         font-size: 12px;
         margin-top: 5px;
         max-width: 600px;
@@ -1438,47 +1438,47 @@ header>img {
     }
 
     /* --------------------------------------------------courseProps-mobile------------------------------------- */
- 
+
     .coursePropsTitle {
         height: 150px;
         margin-left: 35px;
     }
- 
-    .coursePropsTitle > h2{
+
+    .coursePropsTitle>h2 {
         font-size: 26px;
         line-height: 26px;
         max-width: 222px;
     }
- 
+
     .coursePropsPrice {
         height: 100px;
         margin-left: 35px;
     }
- 
+
     .coursePropsPriceWord {
         font-size: 12px;
     }
- 
+
     .coursePropsPriceNumber {
         font-size: 37px;
     }
- 
+
     .coursePropsParagraphWrapper {
         height: 150px;
         justify-content: space-between;
         margin-left: 35px;
     }
- 
+
     .paragraph {
         max-width: 138px;
         margin: 0;
     }
- 
+
     .paragraphTitle {
         font-size: 12px;
         margin-bottom: 5.5px;
     }
- 
+
     .paragraphText {
         font-size: 10px;
     }
