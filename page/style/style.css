@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+/* Указываем box sizing */
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+/* Убираем внутренние отступы */
+/* ul[class],
+ol[class] {
+  padding: 0;
+} */
+
+/* Убираем внешние отступы */
+/* body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+} */
+
+/* Выставляем основные настройки по-умолчанию для body */
+/* body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+} */
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+/* ul[class],
+ol[class] {
+  list-style: none;
+} */
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+/* a:not([class]) {
+  text-decoration-skip-ink: auto;
+} */
+
+/* Упрощаем работу с изображениями */
+/* img {
+  max-width: 100%;
+  display: block;
+} */
+
+/* Наследуем шрифты для инпутов и кнопок */
+/* input,
+button,
+textarea,
+select {
+  font: inherit;
+} */
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+/* ul[class],
+ol[class] {
+  list-style: none;
+} */
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+/* a:not([class]) {
+  text-decoration-skip-ink: auto;
+} */
+
+/* Упрощаем работу с изображениями */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+/* input,
+button,
+textarea,
+select {
+  font: inherit;
+} */
+/* ----------------------------------------------------header------------------------------------------ */
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+header {
+    height: 100px;
+    /* display: flex;
+  align-items: center; */
+}
+
+header>img {
+    margin: 20px 0px 0px 121px;
+}
+
+
+.firstBlockContainer {
+    margin-top: 80px;
+}
+
+.firstBlockElementsWrapper {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 121px;
+}
+
+.firstBlockElement {
+    display: flex;
+    width: 200px;
+}
+
+.firstBlock-p-element {
+    padding-left: 10px;
+}
+
+.firstBlockTextWrapper {
+    margin-top: 30px;
+    margin-left: 121px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .first-block__text {
+  width: 54%;
+} */
+
+.firstBlock-h {
+    max-width: 630px;
+    /* height: 200px; */
+    /* font-size: 80px; */
+    display: flex;
+    /* align-items: center; */
+}
+
+.firstBlock-h>h1 {
+    font-size: 80px;
+    line-height: 81px;
+}
+
+.firstBlock-p {
+    max-width: 415px;
+    margin-top: 10px;
+    height: 62px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.firstBlock-imgWrapper {
+    display: flex;
+    margin-right: 250px;
+}
+
+.firstBlock-img {
+    position: relative;
+}
+
+.firstBlock-ellipse {
+    position: absolute;
+    z-index: -1;
+    bottom: -20px;
+    width: 90%;
+    left: 30px;
+}
+
+.quoteWrapper {
+    height: 450px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 430px;
+}
+
+.quote {
+    background-color: #1e4681;
+    border-radius: 5px;
+    width: 430px;
+    height: 170px;
+    padding: 20px;
+}
+
+.quote-p-wrapper {
+    color: white;
+}
+
+.quote-p {
+    height: 140px;
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+.author {
+    /* height: 45px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+
+@media (min-width: 834px) and (max-width: 1440px) {
+    /* tablet resolution */
+
+    /* ----------------------------------------------------header------------------------------------------ */
+
+    h1 {
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .container {
+        max-width: 834px;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    .logo {
+        width: 65px;
+        margin-left: 70px;
+        /* height: 30.75px; */
+    }
+
+    .firstBlockContainer {
+        margin-top: 16px;
+    }
+
+    .firstBlockElementsWrapper {
+        width: 300px;
+        margin-left: 70px;
+    }
+
+    .globe {
+        width: 12.74px;
+        height: 12.16px;
+    }
+
+    .clock {
+        width: 12.74px;
+        height: 12.74px;
+    }
+
+    .calendar {
+        width: 11.58px;
+        height: 12.74px;
+    }
+
+    .firstBlock-p-element {
+        font-size: 12px;
+        width: 75px;
+        padding-left: 5px;
+    }
+
+    .firstBlock-ellipse {
+        width: 80%;
+        left: 24px;
+        bottom: -10px;
+    }
+
+    .firstBlock-imgWrapper {
+        justify-content: flex-end;
+        margin-right: 100px;
+    }
+
+    .firstBlock-img {
+        width: 176px;
+        height: 206px;
+    }
+
+    .firstBlockTextWrapper {
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+
+    .firstBlock-h {
+        font-size: 46px;
+        max-width: 363px;
+        height: 115px;
+        line-height: 47px;
+    }
+
+    .firstBlock-h>h1 {
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+    .firstBlock-p {
+        font-size: 12px;
+        max-width: 264px;
+        line-height: 18px;
+        margin-top: 0px;
+    }
+
+    .quoteWrapper {
+        height: 200px;
+        margin-left: 280px;
+    }
+
+    .quote {
+        width: 280px;
+        height: 90px;
+        padding: 10px;
+    }
+
+    .quote-p {
+        font-size: 14px;
+        height: 65px;
+    }
+
+    .author {
+        font-size: 12px;
+        height: 20px;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 834px) {
+    /* mobile resolution */
+
+    /* ----------------------------------------------------header------------------------------------------ */
+
+    h1 {
+        font-size: 37px;
+        line-height: 37px;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .container {
+        max-width: 375px;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    .firstBlockContainer {
+        margin-top: 0px;
+    }
+
+    .firstBlock-ellipse {
+        left: 10px;
+        bottom: -10px;
+    }
+
+    .logo {
+        width: 52px;
+        margin-left: 35px;
+    }
+
+    .firstBlockElementsWrapper {
+        width: 80%;
+        margin-bottom: 8px;
+        margin-left: 35px;
+    }
+
+    .firstBlockElement {
+        width: 230px;
+    }
+
+    .firstBlockTextWrapper {
+        display: block;
+        margin-left: 35px;
+    }
+
+    .firstBlock-h>h1 {
+        width: 290px;
+        height: 88px;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .firstBlock-p {
+        width: 210px;
+        height: 30px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .firstBlock-imgWrapper {
+        justify-content: flex-end;
+        margin-right: 0px;
+    }
+
+    .firstBlock-img {
+        width: 141.66px;
+        height: 165.89px;
+    }
+
+    .globe {
+        width: 10.25px;
+        height: 9.79px;
+    }
+
+    .clock {
+        width: 10.25px;
+        height: 10.25px;
+    }
+
+    .calendar {
+        width: 9.32px;
+        height: 10.25px;
+    }
+
+    .firstBlock-p-element {
+        font-size: 10px;
+        max-width: 75px;
+        padding-left: 4px;
+    }
+
+    .quoteWrapper {
+        justify-content: flex-start;
+        height: 190px;
+        margin-left: 35px;
+    }
+
+    .quote {
+        width: 225px;
+        height: 75px;
+    }
+
+    .quote-p {
+        font-size: 11px;
+        height: 52px;
+    }
+
+    .author {
+        font-size: 10px;
+        height: 22px;
+    }
+
+}
